@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dapp:
+    image: unitek-sns
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3005:3000
