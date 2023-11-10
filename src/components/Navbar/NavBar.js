@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../Navbar/NavLinks';
+import logo from '../../images/logo.png';
 
 
 const NavBar = () => {
@@ -23,7 +24,16 @@ const NavBar = () => {
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <Link to="/"><h1 className="font-extrabold text-4xl text-blue-900">mld</h1></Link>
+                    <Link to="/">
+                        {/* <h1 className="font-extrabold text-4xl text-blue-900">mld</h1> */}
+                        <div className='flex flex-row'>
+                            <img className='w-[70px] h-[70px]' src={logo} alt="logo" />
+                            <div className='font-sans flex flex-col justify-center'>
+                                <h3 className='text-[20px] text-orange-600'>UNICUBE</h3>
+                                <p className='text-[12px]'>Services and Solution</p>
+                            </div>
+                        </div>
+                    </Link>
                     
                 </div>
                 <div className="group flex flex-col items-center">

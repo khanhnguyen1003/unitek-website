@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-  background: url(./images/hero-bg.svg) top center no-repeat;
+  /* background: url(./images/hero-bg.svg) top center no-repeat; */
   background-size: cover;
 }
 
