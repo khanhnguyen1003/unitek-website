@@ -44,7 +44,7 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={erpService} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Tư Vấn Và Triển Khai Odoo ERP</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Odoo ERP</h2>
                                     <p className="text-md font-medium">
                                         {/* Thiết kế & tư vấn cho khách hàng các phần mềm, hệ thống phù hợp với nhu cầu kinh doanh trên nền tảng những phần mềm phổ biến trên thị trường hiện nay.  */}
                                         Chúng tôi tự hào giới thiệu dịch vụ tư vấn triển khai Odoo ERP - một hệ thống quản lý doanh nghiệp tích hợp mạnh mẽ, giúp tối ưu hóa quy trình kinh doanh và nâng cao hiệu suất. UNICUBE cam kết tùy chỉnh và triển khai Odoo phù hợp hoàn hảo với nhu cầu cụ thể của khách hàng, giúp tối ưu hóa quản lý, tăng cường hiệu suất và đạt được mục tiêu kinh doanh. 
@@ -83,7 +83,7 @@ const Services = () => {
                             <div className='text-orange-600 mb-4'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" className='fill-current'><path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path></svg>
                             </div>
-                            <h3 className="text-3xl text-[#262626] font-bold">Chúng Tội<span className='font-black'>Hợp Tác</span></h3>
+                            <h3 className="text-3xl text-[#262626] font-bold">Chúng Tôi <span className='font-black'>Hợp Tác</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>Chúng tôi có thể cộng tác với nhóm công nghệ hiện tại của bạn để mở rộng quy mô các ứng dụng phần mềm hiện có hoặc thiết kế các ứng dụng phần mềm tùy chỉnh phù hợp với nhu cầu hàng ngày của bạn và đơn giản hóa các quy trình khác nhau.</p>
                             </div>
