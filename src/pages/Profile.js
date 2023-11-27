@@ -34,7 +34,7 @@ const Profile = () => {
                         
                         <div className='flex justify-center items-center flex-col mt-3'>
                             <h1 className='text-xl font-bold'>Nguyen Hoang Anh</h1>
-                            <p>Fullstack Developer</p>
+                            <p>Founder</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
                             <div className='border-4 rounded-full border-black'></div>
@@ -63,7 +63,7 @@ const Profile = () => {
                         
                         <div className='flex justify-center items-center flex-col mt-3'>
                             <h1 className='text-xl font-bold'>Khanh Nguyen</h1>
-                            <p>Software Engineer | Devops</p>
+                            <p>Software Engineer</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
                             <div className='border-4 rounded-full border-black'></div>
