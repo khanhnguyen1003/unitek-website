@@ -8,6 +8,7 @@ import anhjean from '../images/anhjean.jpg'
 import loi from '../images/loi.jpeg'
 import lam from '../images/lam.jpg'
 import tra from '../images/tra.jpg'
+import logo_latest from '../images/logo_latest.svg'
 
 const Profile = () => {
 
@@ -15,18 +16,21 @@ const Profile = () => {
         <>
             <div className="flex flex-col justify-center items-center w-full bg-white py-12 lg:py-24 bg-gray-200">
                 <div className="flex justify-center items-center flex-col text-center max-w-[90%]">
-                    <h1 className="text-2xl font-bold">MEET OUR TEAM</h1>
+                    <div className='w-[70px] h-[70px]'>
+                        <img src={logo_latest} />
+                    </div>
+                    <h1 className="text-2xl font-bold mt-[24px]">MEET OUR TEAM</h1>
                     <p>Come together, share together, work together, succeed together.</p>
 
                     <div className="flex flex-row gap-x-2 mt-3">
-                        <div className='border-4 rounded-full border-black'></div>
-                        <div className='border-4 rounded-full border-[#dc2626]'></div>
-                        <div className='border-4 rounded-full border-[#2563eb]'></div>
-                        <div className='border-4 rounded-full border-[#d97706]'></div>
+                        <div className='border-4 rounded-full border-[#474747]'></div>
+                        <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                        <div className='border-4 rounded-full border-[#F58320]'></div>
+                        <div className='border-4 rounded-full border-[#2E3D76]'></div>
                     </div>
                 </div>
 
-                <div className='grid lg:grid-cols-4 gap-x-10 gap-y-14 max-w-[80%] mt-9'>
+                <div className='grid lg:grid-cols-4 gap-x-10 gap-y-14 max-w-[80%] mt-10'>
                     <div >
                         <div className='flex justify-center items-center'>
                             <img className='rounded-full w-[160px] h-[160px]' src={anhjean}></img>
@@ -37,17 +41,17 @@ const Profile = () => {
                             <p>Founder</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
-                            <div className='border-4 rounded-full border-black'></div>
-                            <div className='border-4 rounded-full border-[#dc2626]'></div>
-                            <div className='border-4 rounded-full border-[#2563eb]'></div>
-                            <div className='border-4 rounded-full border-[#d97706]'></div>
+                            <div className='border-4 rounded-full border-[#474747]'></div>
+                            <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                            <div className='border-4 rounded-full border-[#F58320]'></div>
+                            <div className='border-4 rounded-full border-[#2E3D76]'></div>
                         </div>
 
                         <div className='flex flex-row gap-x-2 justify-center items-center mt-3'>
                             <a href='#'><img className='w-7 h-7' src={facebook} /></a>
                             <a href='#'><img className='w-7 h-7' src={tele} /></a>
                             <a href='#'><img className='w-7 h-7' src={x} /></a>
-                            <a href='#'><img className='w-7 h-7' src={linkedin} /></a>
+                            <a href='https://www.linkedin.com/in/hoang-anh-nguyen-994a16121/'><img className='w-7 h-7' src={linkedin} /></a>
                         </div>
                         <div className='text-center mt-3'>
                             <p>I have been working in banking industry for 13 years and payment industry for 5 years</p>
@@ -66,17 +70,17 @@ const Profile = () => {
                             <p>Software Engineer</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
-                            <div className='border-4 rounded-full border-black'></div>
-                            <div className='border-4 rounded-full border-[#dc2626]'></div>
-                            <div className='border-4 rounded-full border-[#2563eb]'></div>
-                            <div className='border-4 rounded-full border-[#d97706]'></div>
+                            <div className='border-4 rounded-full border-[#474747]'></div>
+                            <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                            <div className='border-4 rounded-full border-[#F58320]'></div>
+                            <div className='border-4 rounded-full border-[#2E3D76]'></div>
                         </div>
 
                         <div className='flex flex-row gap-x-2 justify-center items-center mt-3'>
                             <a href='#'><img className='w-7 h-7' src={facebook} /></a>
                             <a href='#'><img className='w-7 h-7' src={tele} /></a>
                             <a href='#'><img className='w-7 h-7' src={x} /></a>
-                            <a href='#'><img className='w-7 h-7' src={linkedin} /></a>
+                            <a href='www.linkedin.com/in/khanh-duke/'><img className='w-7 h-7' src={linkedin} /></a>
                         </div>
                         <div className='text-center mt-3'>
                             <p>With over 3 years experience in the industry, I have worked on a variety of projects, from server-side to front-end. I specialize in:</p>
@@ -97,10 +101,10 @@ const Profile = () => {
                             <p>Product Owner</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
-                            <div className='border-4 rounded-full border-black'></div>
-                            <div className='border-4 rounded-full border-[#dc2626]'></div>
-                            <div className='border-4 rounded-full border-[#2563eb]'></div>
-                            <div className='border-4 rounded-full border-[#d97706]'></div>
+                            <div className='border-4 rounded-full border-[#474747]'></div>
+                            <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                            <div className='border-4 rounded-full border-[#F58320]'></div>
+                            <div className='border-4 rounded-full border-[#2E3D76]'></div>
                         </div>
 
                         <div className='flex flex-row gap-x-2 justify-center items-center mt-3'>
@@ -125,17 +129,17 @@ const Profile = () => {
                             <p>Frontend Developer</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
-                            <div className='border-4 rounded-full border-black'></div>
-                            <div className='border-4 rounded-full border-[#dc2626]'></div>
-                            <div className='border-4 rounded-full border-[#2563eb]'></div>
-                            <div className='border-4 rounded-full border-[#d97706]'></div>
+                            <div className='border-4 rounded-full border-[#474747]'></div>
+                            <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                            <div className='border-4 rounded-full border-[#F58320]'></div>
+                            <div className='border-4 rounded-full border-[#2E3D76]'></div>
                         </div>
 
                         <div className='flex flex-row gap-x-2 justify-center items-center mt-3'>
                             <a href='#'><img className='w-7 h-7' src={facebook} /></a>
                             <a href='#'><img className='w-7 h-7' src={tele} /></a>
                             <a href='#'><img className='w-7 h-7' src={x} /></a>
-                            <a href='#'><img className='w-7 h-7' src={linkedin} /></a>
+                            <a href='https://www.linkedin.com/in/tratran96/'><img className='w-7 h-7' src={linkedin} /></a>
                         </div>
                         <div className='text-center mt-3'>
                             <p>With 5 years of experience as a passionate and creative Frontend developer, always looking for ways to create the best user experience and take user interfaces to the next level.</p>
@@ -156,17 +160,17 @@ const Profile = () => {
                             <p>Mobile Developer</p>
                         </div>
                         <div className="flex flex-row gap-x-2 mt-1 justify-center items-center">
-                            <div className='border-4 rounded-full border-black'></div>
-                            <div className='border-4 rounded-full border-[#dc2626]'></div>
-                            <div className='border-4 rounded-full border-[#2563eb]'></div>
-                            <div className='border-4 rounded-full border-[#d97706]'></div>
+                            <div className='border-4 rounded-full border-[#474747]'></div>
+                            <div className='border-4 rounded-full border-[#2E77AE]'></div>
+                            <div className='border-4 rounded-full border-[#F58320]'></div>
+                            <div className='border-4 rounded-full border-[#2E3D76]'></div>
                         </div>
 
                         <div className='flex flex-row gap-x-2 justify-center items-center mt-3'>
                             <a href='#'><img className='w-7 h-7' src={facebook} /></a>
                             <a href='#'><img className='w-7 h-7' src={tele} /></a>
-                            <a href='#'><img className='w-7 h-7' src={x} /></a>
-                            <a href='#'><img className='w-7 h-7' src={linkedin} /></a>
+                            <a href='https://twitter.com/LamNguy42067088'><img className='w-7 h-7' src={x} /></a>
+                            <a href='https://www.linkedin.com/in/lam-nguyen-783227268/'><img className='w-7 h-7' src={linkedin} /></a>
                         </div>
                         <div className='text-center mt-3'>
                             <p>With over 2 years of dedicated experience in mobile development, I have honed my skills across various facets of the industry.</p>

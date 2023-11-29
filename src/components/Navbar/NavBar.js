@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../Navbar/NavLinks';
 import logo from '../../images/logo_new.png';
-
+import logo_latest from '../../images/logo_latest.svg'
 
 const NavBar = () => {
     const [top, setTop] = useState(true);
@@ -23,13 +23,13 @@ const NavBar = () => {
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+                <div className="flex flex-row justify-center px-[8px] lg:px-12 lg:mx-12 items-center text-center font-semibold">
                     <Link to="/">
                         {/* <h1 className="font-extrabold text-4xl text-blue-900">mld</h1> */}
                         <div className='flex flex-row'>
-                            <img className='w-[55px] h-[60px]' src={logo} alt="logo" />
+                            <img className='w-[55px] h-[60px]' src={logo_latest} alt="logo" />
                             <div className='font-sans flex flex-col justify-center ml-3'>
-                                <h3 className='text-[20px] text-orange-600'>UNICUBE</h3>
+                                <h3 className='text-[20px] text-[#F58320]'>UNICUBE</h3>
                                 <p className='text-[12px]'>Services and Solution</p>
                             </div>
                         </div>
