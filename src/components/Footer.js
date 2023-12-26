@@ -101,8 +101,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <p>Trụ sở chính: 33 Khu dân cư Phú Long, Nguyễn Hữu Thọ, Phước Kiển, Nhà Bè, TP.Hồ Chí Minh</p>
-                            <p>Email: unicube.vn@gmail.com</p>
-                            <p>Số điện thoại: 0976 517 102</p>
+                            <p>Email: support@unicube.vn</p>
 
                         </div>
                                 

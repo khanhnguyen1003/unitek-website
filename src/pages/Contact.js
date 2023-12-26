@@ -191,12 +191,12 @@ const Contact = () => {
                                     </div>
 
                                     <div className="flex flex-col">
-                                    <h2 className="text-2xl">Điện thoại</h2>
-                                    <p className="text-gray-400">0976517102</p>
+                                    {/* <h2 className="text-2xl">Điện thoại</h2>
+                                    <p className="text-gray-400"></p> */}
                                     
                                         <div className='mt-5'>
                                             <h2 className="text-2xl">Email</h2>
-                                            <p className="text-gray-400">unicube@gmail.com</p>
+                                            <p className="text-gray-400">support@unicube.vn</p>
                                         </div>
                                 
                                     </div>
